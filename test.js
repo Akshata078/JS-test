@@ -33,15 +33,20 @@
 //     let start = 0;
 //     let end = str.length - 1;
     
-//     while(start!=end){
-//         if(str[start]==str[end]){
-//             start++;
-//             end--;
-//         }
+//     if(str.length%2 !=0){
+//         return "not valid"
 //     }
-
+//     while(start==end){
+//         if(str[start]!=str[end]){
+           
+//             return "not valid"
+//         }
+//         start++;
+//         end--;
+//     }
+//     return "valid"
 // }
-// validString("(})");
+// console.log(validString("({}})"));
 
 
 // Given a string, find the length of the longest substring without repeating characters.
@@ -97,6 +102,7 @@
 
 
 // Given an integer array, return all possible subsets (the power set).
+
 
 
 // Write a function to check if a given string is a palindrome.
